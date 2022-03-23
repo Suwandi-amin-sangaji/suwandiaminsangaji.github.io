@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --white : #ffffff ;
+    --black : #000000 ;
+}
+
+.bg-light {
+   background-color: var(--white) !important;  
+}
+.navbar-brand {
+    background-color: #000000;
+    color: #fff !important;
+    border-radius: 100%;
+    padding: 10px 5px;
+}
+.nav-item{
+    margin-right: 32px;
+    align-items: center;
+}
+.active{
+    color: var(--black) !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+}
+
+.nav-link{
+    color: var(--black) !important;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+.bg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* background-image: url(bg.png); */
+}
+.card-body{
+    position: relative; 
+    height: 500px;
+    margin-top: -30%;
+    border: 1px solid var(--white) !important;
+    border-radius: 5px;
+    padding-top: 30px;
+
+}
+
+
+#progress{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    margin-left: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+/* .button{
+    
+} */
+
+.btn-dark{
+    margin-right: 24px;
+}
+
+.btn-default{
+   border-radius: 1px solid var(--black) !important;
+}
+
+.video-link {
+    width: 100px;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+
